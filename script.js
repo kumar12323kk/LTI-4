@@ -149,7 +149,7 @@ enquiryForm.addEventListener('submit', function (e) {
   }
 
   // Format message for WhatsApp
-  let whatsappMessage = `Hello, I am *${name}*.\nPhone: ${phone}\nInterested in courses: ${courses.join(', ')}`;
+  let whatsappMessage = `Hello Sir, I am *${name}*.\nPhone: ${phone}\nInterested in courses: ${courses.join(', ')}`;
   whatsappMessage += `\nPreferred batch: ${preferredBatch}`;
   if (message) {
     whatsappMessage += `\nMessage: ${message}`;
@@ -176,3 +176,4 @@ if (galleryImages.length > 0) {
   showNextImage();
   setInterval(showNextImage, 3000);
 }
+
